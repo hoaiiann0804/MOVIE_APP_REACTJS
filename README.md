@@ -6,7 +6,7 @@
 
 Ứng dụng xem phim được xây dựng bằng React và TMDb API, cho phép người dùng tìm kiếm và xem thông tin chi tiết về các bộ phim.
 
-![Movie App Screenshot](./public/movie-app-screenshot.png)
+![Movie App Screenshot](https://github.com/hoaiiann0804/MOVIE_APP_REACTJS/raw/main/screenshots/list_movie.png)
 
 ## ✨ Tính năng chính
 
