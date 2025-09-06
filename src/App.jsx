@@ -40,7 +40,7 @@ function App() {
     };
 
     const openDetail = (id) => {
-        axios(`https://api.themoviedb.org/3/movie/${id}?api_key=e3d460cad173ccfed6ffc7cad4197f72&language=vi-VN`).then(({ data }) => {
+        axios(`https://api.themoviedb.org/3/movie/${id}?api_key=${process.env.api_key}&language=vi-VN`).then(({ data }) => {
             setState(prevState => ({ ...prevState, selected: data }));
         });
     };
