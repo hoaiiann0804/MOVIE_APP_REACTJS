@@ -21,7 +21,7 @@ function App() {
 
     const search = (e) => {
         if (e.key === "Enter") {
-            const searchUrl =`https://api.themoviedb.org/3/search/movie?api_key=e3d460cad173ccfed6ffc7cad4197f72&language=vi-VN&query=${state.s}&page=1&include_adult=false`
+            const searchUrl =`https://api.themoviedb.org/3/search/movie?api_key=${process.env.api_key}&language=vi-VN&query=${state.s}&page=1&include_adult=false`
             axios(searchUrl ).then(
                 ({ data }) => {
                     let results = data.results;
