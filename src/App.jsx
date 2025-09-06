@@ -77,6 +77,9 @@ function App() {
                             <h3 style={{ color: "white" }}>
                                 {e.title}
                             </h3>
+                            <p style={{color:'white'}}> Số lượt bình chọn: <span style={{color: 'tomato'}}>{e.vote_count}</span></p>
+                            <p style={{color:'white'}}>Đánh giá: <span style={{color:'yellow'}}> {e.vote_average}</span></p>
+                            
                         </div>
                     ))}
                 </div>

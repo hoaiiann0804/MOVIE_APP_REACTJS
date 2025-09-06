@@ -6,7 +6,7 @@ function Detail({ selected, closeDetail }) {
     return (
         <section className="detail">
             <div className="content">
-                <h2>{selected.Title}</h2>
+                <h2 >{selected.Title}</h2>
                 <span>{selected.Year}</span>
                 <p className="rating">
                     Rating: {selected.imdbRating}
