@@ -44,6 +44,7 @@ function App() {
             setState(prevState => ({ ...prevState, selected: data }));
         });
     };
+    
 
     const closeDetail = () => {
         setState((prevState) => {
