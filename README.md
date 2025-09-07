@@ -4,11 +4,6 @@
 [![Vite](https://img.shields.io/badge/Vite-4.0.0-646CFF?logo=vite)](https://vitejs.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Ứng dụng xem phim được xây dựng bằng React và TMDb API, cho phép người dùng tìm kiếm, xem thông tin chi tiết và xem trailer các bộ phim.
-
-![Movie App Screenshot](https://github.com/hoaiiann0804/MOVIE_APP_REACTJS/raw/main/screenshots/list_movie.png)
-🎬 Ứng dụng Xem Phim với React
-
 🌟 Giới thiệu
 Ứng dụng Xem Phim là dự án cá nhân được xây dựng trong 2 tháng để học hỏi React và tích hợp API bên thứ ba. Ứng dụng sử dụng TMDb API để cung cấp thông tin phim theo thời gian thực.
 Điểm nổi bật:
@@ -26,7 +21,7 @@ Tối ưu hiệu năng tải trang.
 
 📸 Hình ảnh demo
 Danh sách phim phổ biến
-![Movie App Screenshot](https://github.com/hoaiiann0804/MOVIE_APP_REACTJS/raw/main/screenshots/list_movie.png)
+![Movie App Screenshot](https://github.com/hoaiiann0804/MOVIE_APP_REACTJS/raw/main/screenshots/list_movies.png)
 Thông tin chi tiết phim
 ![Movie App Screenshot](https://github.com/hoaiiann0804/MOVIE_APP_REACTJS/raw/main/screenshots/detail.png)
 Tìm kiếm phim theo từ khóa
