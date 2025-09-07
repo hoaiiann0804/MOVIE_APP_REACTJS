@@ -76,6 +76,8 @@ Nhấn vào phim để xem chi tiết và trailer YouTube.
 Nhấn nút đóng để quay lại danh sách phim.
 
 📂 Cấu trúc dự án
+
+```
 MOVIE_APP_REACTJS/
 ├── public/           # Tài nguyên tĩnh
 ├── src/
@@ -91,7 +93,7 @@ MOVIE_APP_REACTJS/
 ├── .gitignore
 ├── package.json
 └── README.md
-
+```
 🔍 Trạng thái dự án
 Đang phát triển tích cực - Phiên bản hiện tại: v1.0.0
 Tính năng đang phát triển
