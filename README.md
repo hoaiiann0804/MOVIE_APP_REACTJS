@@ -116,10 +116,8 @@ Xử lý lỗi và loading state.
 
 🚀 Triển khai
 
-Lưu ý: Dự án hiện đang chạy trên môi trường local. Các bước dưới đây là kế hoạch dự kiến để triển khai lên production.
 
-
-Build production:npm run build
+Build production: npm run build
 
 
 Triển khai lên Vercel:
@@ -128,8 +126,11 @@ Fork repository: github.com/hoaiiann0804/MOVIE_APP_REACTJS.
 Cấu hình biến môi trường VITE_API_KEY với TMDb API key.
 Nhấn Deploy.
 
+🌍 Demo Online: [Movie App ReactJS](https://movie-app-reactjs-pink.vercel.app)
 
-Kế hoạch triển khai: Tôi đang nghiên cứu triển khai lên Vercel và sẽ cập nhật link production trong tương lai.
+Dự án đã được triển khai thành công trên Vercel.  
+Mỗi khi cập nhật code và push lên GitHub, ứng dụng sẽ tự động được build và triển khai lại.
+
 
 🤝 Đóng góp
 
@@ -162,4 +163,7 @@ Email: hoaiiann0804@gmail.com
 GitHub: github.com/hoaiiann0804
 
 
-Lưu ý: Sử dụng API key hợp lệ từ TMDb cho mục đích phát triển.
+Lưu ý: 
+-Sử dụng API key hợp lệ từ TMDb cho mục đích phát triển.
+- "Với TMDB API key tôi để trực tiếp vì đây là public key. Với các API quan trọng (payment, AI, backend riêng) thì tôi sẽ dùng backend hoặc serverless function để bảo mật."
+
