@@ -1,53 +1,86 @@
-# 🎬 Movie App with React
+# 🎬 Ứng dụng Xem Phim với React
 
 [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-4.0.0-646CFF?logo=vite)](https://vitejs.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Ứng dụng xem phim được xây dựng bằng React và TMDb API, cho phép người dùng tìm kiếm và xem thông tin chi tiết về các bộ phim.
+Ứng dụng xem phim được xây dựng bằng React và TMDb API, cho phép người dùng tìm kiếm, xem thông tin chi tiết và xem trailer các bộ phim.
 
 ![Movie App Screenshot](https://github.com/hoaiiann0804/MOVIE_APP_REACTJS/raw/main/screenshots/list_movie.png)
+🎬 Ứng dụng Xem Phim với React
 
-## ✨ Tính năng chính
+🌟 Giới thiệu
+Ứng dụng Xem Phim là dự án cá nhân được xây dựng trong 2 tháng để học hỏi React và tích hợp API bên thứ ba. Ứng dụng sử dụng TMDb API để cung cấp thông tin phim theo thời gian thực.
+Điểm nổi bật:
 
-- 🔍 Tìm kiếm phim theo từ khóa
-- 🎥 Xem danh sách phim phổ biến
-- 📝 Xem thông tin chi tiết phim
-- 🌐 Hỗ trợ đa ngôn ngữ (tiếng Việt)
-- 🚀 Tốc độ tải trang nhanh với Vite
+Tích hợp trailer YouTube với phản hồi nhanh.
+Giao diện responsive, hỗ trợ tiếng Việt.
+Tối ưu hiệu năng với Vite (tải trang <2 giây).
 
-## 🛠 Công nghệ sử dụng
+Vai trò của tôi:
 
-- **Frontend**: React 18, Vite 4
-- **Styling**: CSS3
-- **API**: The Movie Database (TMDb)
-- **State Management**: React Hooks
-- **HTTP Client**: Axios
+Phát triển giao diện người dùng với React và CSS3.
+Tích hợp TMDb API để lấy dữ liệu phim.
+Quản lý state với React Hooks.
+Tối ưu hiệu năng tải trang.
 
-## 📦 Cài đặt
+📸 Hình ảnh demo
+Danh sách phim phổ biến
+![Movie App Screenshot](https://github.com/hoaiiann0804/MOVIE_APP_REACTJS/raw/main/screenshots/list_movie.png)
+Thông tin chi tiết phim
+![Movie App Screenshot](https://github.com/hoaiiann0804/MOVIE_APP_REACTJS/raw/main/screenshots/detail.png)
+Tìm kiếm phim theo từ khóa
+![Movie App Screenshot](https://github.com/hoaiiann0804/MOVIE_APP_REACTJS/raw/main/screenshots/search_keyword.png)
+🚀 Công nghệ sử dụng
 
-1. **Clone dự án**
-   ```bash
-   git clone https://github.com/hoaiiann0804/MOVIE_APP_REACTJS.git
-   cd MOVIE_APP_REACTJS
-   ```
+Frontend: React 18.2.0
+Build Tool: Vite 4.0.0
+Styling: CSS3
+API: The Movie Database (TMDb)
+State Management: React Hooks
+HTTP Client: Axios
+Router: React Router
 
-2. **Cài đặt dependencies**
-   ```bash
-   npm install
-   ```
+🛠 Bắt đầu
+Yêu cầu hệ thống
 
-3. **Chạy ứng dụng**
-   ```bash
-   npm run dev
-   ```
+Node.js >= 14.0.0
+npm hoặc yarn
+API key từ The Movie Database
 
-4. **Truy cập ứng dụng**
-   Mở trình duyệt và truy cập: [http://localhost:5173](http://localhost:5173)
+Cài đặt
 
-## 📂 Cấu trúc dự án
+Clone dự án:git clone https://github.com/hoaiiann0804/MOVIE_APP_REACTJS.git
+cd MOVIE_APP_REACTJS
 
-```plaintext
+
+Tạo file .env:VITE_API_KEY=your_tmdb_api_key_here
+
+
+Cài đặt dependencies:npm install
+# hoặc
+yarn install
+
+
+Chạy ứng dụng:npm run dev
+# hoặc
+yarn dev
+
+
+Truy cập: http://localhost:5173
+Dữ liệu thử nghiệm:
+Sử dụng API key từ TMDb.
+Hoặc dùng file JSON mẫu trong screenshots/sample_data.json (nếu có).
+
+
+
+🎯 Cách sử dụng
+
+Nhập từ khóa vào ô tìm kiếm và nhấn Enter để tìm phim.
+Nhấn vào phim để xem chi tiết và trailer YouTube.
+Nhấn nút đóng để quay lại danh sách phim.
+
+📂 Cấu trúc dự án
 MOVIE_APP_REACTJS/
 ├── public/           # Tài nguyên tĩnh
 ├── src/
@@ -59,49 +92,77 @@ MOVIE_APP_REACTJS/
 │   ├── App.jsx       # Component chính
 │   ├── App.css       # Style chính
 │   └── main.jsx      # Điểm vào ứng dụng
+├── screenshots/      # Ảnh chụp màn hình
 ├── .gitignore
 ├── package.json
 └── README.md
-```
 
-## 🎯 Vai trò của tôi
+🔍 Trạng thái dự án
+Đang phát triển tích cực - Phiên bản hiện tại: v1.0.0
+Tính năng đang phát triển
 
-- **Phát triển giao diện người dùng** với React và CSS3
-- **Tích hợp API** TMDb để lấy dữ liệu phim
-- **Xử lý state** với React Hooks
-- **Tối ưu hiệu năng** tải trang
+ Thêm tính năng lưu phim yêu thích
+ Tích hợp đánh giá phim
 
-## 🔧 Kết quả đạt được
+🔧 Kết quả đạt được
 
-- Thời gian tải trang dưới 2 giây
-- Giao diện thân thiện, dễ sử dụng
-- Tương thích tốt trên nhiều thiết bị
+Tải trang dưới 2 giây nhờ Vite.
+Giao diện thân thiện, tương thích trên nhiều thiết bị.
+Tích hợp API TMDb mượt mà, phản hồi nhanh.
 
-## 📚 Bài học rút ra
+📚 Bài học rút ra
 
-- Làm việc với API bên thứ 3 (TMDb)
-- Quản lý state hiệu quả với React Hooks
-- Tối ưu hiệu năng ứng dụng React
-- Xử lý lỗi và loading state
+Thành thạo làm việc với API bên thứ ba (TMDb).
+Quản lý state hiệu quả với React Hooks.
+Tối ưu hiệu năng ứng dụng React.
+Xử lý lỗi và loading state.
 
-## 🤝 Đóng góp
+🚀 Triển khai
 
-Đóng góp của bạn luôn được chào đón! Hãy tạo issue hoặc pull request nếu bạn muốn đóng góp cho dự án.
+Lưu ý: Dự án hiện đang chạy trên môi trường local. Các bước dưới đây là kế hoạch dự kiến để triển khai lên production.
 
-1. Tạo Issue mới để thảo luận về tính năng hoặc báo lỗi
-2. Fork repository và tạo nhánh mới cho tính năng của bạn
-3. Tạo Pull Request với mô tả rõ ràng về thay đổi
 
-## 📄 Giấy phép
+Build production:npm run build
 
-Dự án được cấp phép theo [MIT License](LICENSE).
 
-## 📞 Liên hệ
+Triển khai lên Vercel:
+Fork repository: github.com/hoaiiann0804/MOVIE_APP_REACTJS.
+Đăng nhập Vercel, tạo dự án mới, kết nối repository.
+Cấu hình biến môi trường VITE_API_KEY với TMDb API key.
+Nhấn Deploy.
 
-- **Tên**: Nguyễn Hoài An
-- **Email**: [hoaiiann0804@gmail.com](mailto:hoaiiann0804@gmail.com)
-- **GitHub**: [github.com/hoaiiann0804](https://github.com/hoaiiann0804)
 
----
+Kế hoạch triển khai: Tôi đang nghiên cứu triển khai lên Vercel và sẽ cập nhật link production trong tương lai.
 
-> **Lưu ý**: Dự án này sử dụng API của TMDb. Vui lòng sử dụng API key hợp lệ của riêng bạn cho mục đích phát triển.
+🤝 Đóng góp
+
+Tạo Issue: Mô tả vấn đề hoặc tính năng mới, kèm ảnh chụp màn hình nếu cần.
+Tạo Pull Request:git clone https://github.com/hoaiiann0804/MOVIE_APP_REACTJS.git
+git checkout -b feature/your-feature-name
+git add .
+git commit -m "feat: mô tả thay đổi"
+git push origin feature/your-feature-name
+
+
+Nguyên tắc code:
+Tuân thủ coding style hiện có.
+Viết unit test với Jest (nếu có).
+Cập nhật tài liệu nếu thay đổi giao diện hoặc API.
+
+
+
+🙏 Ghi nhận
+
+Dữ liệu phim được cung cấp bởi The Movie Database (TMDb).
+Xây dựng bởi hoaiiann0804.
+
+📄 Giấy phép
+Dự án được cấp phép theo MIT License.
+📞 Liên hệ
+
+Tên: Nguyễn Hoài An
+Email: hoaiiann0804@gmail.com
+GitHub: github.com/hoaiiann0804
+
+
+Lưu ý: Sử dụng API key hợp lệ từ TMDb cho mục đích phát triển.
