@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 🌟 Giới thiệu
-Ứng dụng Xem Phim là dự án cá nhân được xây dựng trong 2 tháng để học hỏi React và tích hợp API bên thứ ba. Ứng dụng sử dụng TMDb API để cung cấp thông tin phim theo thời gian thực.
+Ứng dụng Xem Phim là dự án cá nhân được xây dựng trong 2 tuần để học hỏi React và tích hợp API bên thứ ba. Ứng dụng sử dụng TMDb API để cung cấp thông tin phim theo thời gian thực.
 Điểm nổi bật:
 
 Tích hợp trailer YouTube với phản hồi nhanh.
